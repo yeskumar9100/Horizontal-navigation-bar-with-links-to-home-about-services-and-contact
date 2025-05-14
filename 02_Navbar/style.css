@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+.navbar {
+  background: #333;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.navbar ul li {
+  margin: 0 20px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+.navbar ul li a:hover {
+  background-color: #555;
+}
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+#home {
+  background: url('https://source.unsplash.com/1600x600/?technology') no-repeat center center/cover;
+  color: white;
+}
+#about, #services, #contact {
+  background: #f1f1f1;
+}
+h1 {
+  margin-bottom: 20px;
+}
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0073e6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.social {
+  margin-top: 20px;
+}
+.social a {
+  margin: 0 10px;
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+}
